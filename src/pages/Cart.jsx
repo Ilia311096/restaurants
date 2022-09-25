@@ -7,7 +7,7 @@ export const Cart = () => {
   const dishIds = useSelector(selectCartDishIds);
 
   if (!dishIds?.length) {
-    return <span>корзина пуста</span>;
+    return <span>cart is empty</span>;
   }
   return (
     <div>

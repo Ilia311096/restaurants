@@ -60,7 +60,7 @@ export const Restaurants = () => {
           setSearchParams({ restaurantName: event.target.value })
         }
       />
-      <Select>
+      {/*       <Select>
         {["1", "2", "3", "4"].map((option) => (
           <Option key={option} value={option} />
         ))}
@@ -69,7 +69,7 @@ export const Restaurants = () => {
         {["1", "2", "3", "4"].map((option) => (
           <NewOption key={option} value={option} />
         ))}
-      </Select>
+      </Select> */}
       <RestaurantTabsContainer />
       <Outlet />
     </>

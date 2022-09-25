@@ -24,13 +24,13 @@ export const Review = ({ reviewId, className }) => {
 
   return (
     <div className={classnames(styles.root, className)}>
-      <CountComponent />
+      {/*    <CountComponent /> */}
       <div className={styles.header}>
         <User userId={review.userId} />
         <Rating value={review.rating} size="small" />
       </div>
       <div>{review.text}</div>
-      <VerySlowComponent />
+      {/* <VerySlowComponent /> */}
     </div>
   );
 };
