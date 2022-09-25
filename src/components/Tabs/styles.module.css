@@ -1,0 +1,8 @@
+.root {
+    padding: 10px 20px;
+    display: flex;
+}
+
+.tab:not(:last-child) {
+    margin-right: 15px;
+}

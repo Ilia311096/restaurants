@@ -1,0 +1,25 @@
+.root {
+    padding: 10px 20px;
+    border: none;
+    transition: opacity 0.2s;
+    border-radius: 4px;
+}
+
+.root:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.lastRoot {
+    margin-right: 0;
+}
+
+
+.rootActive {
+    background-color: grey;
+}
+
+.rootActive:hover {
+    cursor: default;
+    opacity: 1;
+}
